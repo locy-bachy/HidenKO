@@ -57,6 +57,10 @@ open build/HidenKO.app
 
 ## Если скачали готовое приложение
 
+Готовая сборка лежит в [Releases](https://github.com/locy-bachy/HidenKO/releases): скачайте
+`HidenKO-<версия>.zip`, распакуйте и перетащите `HidenKO.app` в «Программы». Сборка работает на
+Apple Silicon и Intel. Собрать такой архив самому: `./build.sh --release`.
+
 Приложение не нотаризовано Apple, поэтому при первом запуске macOS скажет, что не может проверить
 разработчика. Чтобы открыть:
 
